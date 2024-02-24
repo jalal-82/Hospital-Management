@@ -1,0 +1,38 @@
+.left-patient {
+    /* Common form styles */
+    display: flex;
+    flex-direction: column;
+    width: 40rem; /* Adjust width as needed */
+    margin: 1rem 0; /* Adjust top and bottom margins as needed */
+  
+    /* Label and input styles */
+    label {
+      display: block;
+      margin-bottom: 0.5rem; /* Use rem for spacing */
+      font-weight: bold;
+    }
+  
+    input {
+      display: block;
+      width: 75%;
+      padding: 0.5rem; /* Use rem for padding */
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+    }
+
+    .datetime {
+        display: flex;
+        align-items: center;
+    }
+    
+    .regdate,
+    .time {
+        margin-right: 10px;
+    }
+    
+    label {
+        margin-right: 5px;
+    }
+
+  }
+

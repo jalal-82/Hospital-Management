@@ -1,0 +1,31 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.patient-button {
+  /* Common button styles */
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 1rem 2rem; /* Use rem for padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.25rem 0.125rem; /* Use rem for margin */
+  cursor: pointer;
+  border-radius: 0.25rem;
+
+  /* Increase size */
+  width: 12.5rem; /* Adjust width as needed */
+  height: 3.125rem; /* Adjust height as needed */
+  font-size: 1.25rem; /* Adjust font size as needed */
+}
+
+.patient-button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
